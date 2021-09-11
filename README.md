@@ -5,7 +5,7 @@ TickerAnalysis is on open source library that calculates technical indicators fo
     pip install ticker-analysis
     
 ## Example Usage
-    from TickerAnalysis import TickerAnalysis
+    from TickerAnalysis import Ticker
     
     ticker = Ticker("SU", "5m", "1mo")
 
