@@ -1,8 +1,11 @@
 # TickerAnalysis
-TickerAnalysis is on open source library that calculates technical indicators for any ticker available on yahoo finance.
+TickerAnalysis is on open source library that calculates technical indicators for any ticker listed on yahoo finance.
 
 ## Installation
     pip install ticker-analysis
+    
+ ## Technical Indicators
+TickerAnalysis can calculate exponential moving averages, simple moving averages, relative stregnth index (RSI), moving average convergence divergence (MACD), volume weighted average price (VWAP), stochtastic, bollinger bands, volume osciallator (VOSC), price percentage oscillator, and commodity channel index (CCI) of any ticker listed on yahoo finance.
     
 ## Example Usage
     from TickerAnalysis import Ticker
