@@ -1,19 +1,20 @@
 # TickerAnalysis
 TickerAnalysis is on open source library that calculates technical indicators for any ticker available on yahoo finance.
 
-# Installation
+## Installation
     pip install ticker-analysis
     
-# Example Usage
+## Example Usage
 '''python
-from TickerAnalysis import TickerAnalysis
-ticker = TickerAnalysis("SU", "5m", "1mo")
 
-current_price = ticker.get_price()
+    from TickerAnalysis import TickerAnalysis
+    ticker = TickerAnalysis("SU", "5m", "1mo")
 
-bollinger_bands = ticker.get_bollinger_bands()
-lower_bollinger_band = bollinger_bands["bolDown"]
+    current_price = ticker.get_price()
 
-if lower_bollinger_band < current_price:
-    print("SU is oversold")
+    bollinger_bands = ticker.get_bollinger_bands()
+    lower_bollinger_band = bollinger_bands["bolDown"]
+
+    if lower_bollinger_band < current_price:
+        print("SU is oversold")
 '''
