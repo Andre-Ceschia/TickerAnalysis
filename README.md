@@ -1,2 +1,2 @@
 # TickerAnalysis
-TickerAnalysis is on open source library used to calculate technical indicators
+TickerAnalysis is on open source library that calcualtes technical indicators for any ticker that is available on yahoo finance
