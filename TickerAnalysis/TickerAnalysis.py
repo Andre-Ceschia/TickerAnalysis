@@ -3,7 +3,7 @@ from datetime import datetime
 import math
 import warnings
 
-class TickerAnalysis:
+class Ticker:
     """
     Technical Stock Analysis Toolkit
 

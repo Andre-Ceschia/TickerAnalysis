@@ -1,1 +1,1 @@
-from TickerAnalysis import TickerAnalysis
+from TickerAnalysis.TickerAnalysis import Ticker
