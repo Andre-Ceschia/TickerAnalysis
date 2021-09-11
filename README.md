@@ -14,5 +14,5 @@ TickerAnalysis is on open source library that calculates technical indicators fo
     bollinger_bands = ticker.get_bollinger_bands()
     lower_bollinger_band = bollinger_bands["bolDown"]
 
-    if lower_bollinger_band < current_price:
+    if current_price < lower_bollinger_band:
         print("SU is oversold")
