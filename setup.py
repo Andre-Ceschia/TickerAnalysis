@@ -5,7 +5,7 @@ DESCRIPTION = 'Open source library that calculates technical indicators for any 
 
 # Setting up
 setup(
-    name="TickerAnalysis",
+    name="ticker-analysis",
     version=VERSION,
     author="Andre Ceschia",
     author_email="andre.ceschia04@gmail.com",
