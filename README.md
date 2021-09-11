@@ -5,6 +5,7 @@ TickerAnalysis is on open source library that calculates technical indicators fo
     pip install ticker-analysis
     
 # Example Usage
+    '''python
     from TickerAnalysis import TickerAnalysis
     ticker = TickerAnalysis("SU", "5m", "1mo")
     
@@ -15,3 +16,4 @@ TickerAnalysis is on open source library that calculates technical indicators fo
     
     if lower_bollinger_band < current_price:
         print("SU is oversold")
+    '''
