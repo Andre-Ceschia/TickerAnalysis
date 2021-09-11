@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2'
+VERSION = '0.0.1'
 DESCRIPTION = 'Open source library that calculates technical indicators for any ticker available on yahoo finance'
 
 # Setting up
